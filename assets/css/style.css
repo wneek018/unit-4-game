@@ -1,0 +1,47 @@
+body {
+    background-image: url("../images/hexellence.png");
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+}
+
+.container-2 {
+    background-color: lightblue;
+    margin: 25px 0;
+}
+
+#lost, #won {
+    display: none;
+}
+
+#randNum {
+    font-size: 40px;
+}
+
+.btn-outline-danger {
+    height: 200px;
+    width: 200px;
+}
+
+#crystal1 {
+    background-image: url("../../assets/images/crystal1.jpg");
+    background-size: contain;
+}
+
+#crystal2 {
+    background-image: url("../../assets/images/crystal2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#crystal3 {
+    background-image: url("../../assets/images/crystal3.png");
+    background-size: contain;
+}
+
+#crystal4 {
+    background-image: url("../../assets/images/crystal4.jpg");
+    background-size: contain;
+}
