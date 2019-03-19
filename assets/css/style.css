@@ -5,19 +5,49 @@ body {
 
 .container {
     background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    border: 2px solid #cccccc;
 }
 
 .container-2 {
-    background-color: lightblue;
-    margin: 25px 0;
+    margin: 15px 0;
+}
+
+.container-mid {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.col-xs-3 {
+    padding: 10px;
+}
+
+h3, h2 {
+    font-size: 26px !important;
 }
 
 #lost, #won {
     display: none;
+    font-size: 40px;
+}
+
+#lost {
+    color: red;
+}
+
+#won {
+    color: green;
 }
 
 #randNum {
     font-size: 40px;
+}
+
+#tally-score {
+    font-size: 33px;
 }
 
 .btn-outline-danger {
@@ -28,20 +58,33 @@ body {
 #crystal1 {
     background-image: url("../../assets/images/crystal1.jpg");
     background-size: contain;
+    background-position: center;
+
 }
 
 #crystal2 {
     background-image: url("../../assets/images/crystal2.jpg");
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
 }
 
 #crystal3 {
     background-image: url("../../assets/images/crystal3.png");
     background-size: contain;
+    background-position: center;
+    background-color: transparent;
 }
 
 #crystal4 {
     background-image: url("../../assets/images/crystal4.jpg");
     background-size: contain;
+    background-position: center;
+}
+
+.jumbotron {
+    padding: 2rem 1rem !important;
+    margin-bottom: 0 !important;
+    padding-bottom: 7px !important;
 }
